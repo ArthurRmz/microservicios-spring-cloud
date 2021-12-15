@@ -11,9 +11,10 @@ eureka:
 
 spring:
   cloud:
+    discovery:
+      enabled: true
     gateway:
       discovery:
-        enabled: true
         locator:
           enabled: true
           lower-case-service-id: true
