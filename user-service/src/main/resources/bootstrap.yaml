@@ -1,2 +1,2 @@
 spring:  application:    name: user-service  cloud:    config:      enabled: true      uri:      - http://localhost:8081
-  security:    oauth2:      resourceserver:        jwt:          issuer-uri: http://localhost:8180/auth/realms/tuturial-realm
+  security:    oauth2:      resourceserver:        jwt:          issuer-uri: http://192.168.100.14/realms/tuturial-realm
