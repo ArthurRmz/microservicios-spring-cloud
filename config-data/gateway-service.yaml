@@ -46,6 +46,7 @@ spring:
             provider: keycloak
             client-id: tutorial-client
             client-secret: 6zlQ1i0WVaEmlmRuNxqWXFn7kr7WKzu3
+            scope: openid
             authorization-grant-type: authorization_code
             redirect-uri: http://localhost:8090/login/oauth2/code/tutorial-client
   
